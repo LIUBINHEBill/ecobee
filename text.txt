@@ -1,0 +1,4 @@
+rd /s /q .next 2> NUL
+pnpm dev
+
+pnpm dlx prisma studio

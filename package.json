@@ -1,0 +1,38 @@
+{
+  "name": "ecobee-ui",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ai-sdk/mistral": "^2.0.5",
+    "@prisma/client": "^6.14.0",
+    "@upstash/redis": "^1.35.3",
+    "@vercel/analytics": "^1.5.0",
+    "ai": "^5.0.15",
+    "framer-motion": "^12.23.12",
+    "lucide-react": "^0.540.0",
+    "next": "15.4.6",
+    "next-themes": "^0.4.6",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-hook-form": "^7.62.0",
+    "zod": "^4.0.17"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.4.6",
+    "prisma": "^6.14.0",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
